@@ -1,0 +1,1 @@
+This is the repo for the paper "A little less conversation, a little more action, please: Investigating the physical common-sense of LLMs in a 3D embodied environment", which can be found at https://arxiv.org/abs/2410.23242. Full code will be uploaded soon.
