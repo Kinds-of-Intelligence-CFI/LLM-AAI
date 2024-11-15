@@ -1,0 +1,14 @@
+aai_config_path: data/arena_configs/sanity_green
+aai_seeds: 5
+experiment_name: experiment1
+llm_family: claude
+llm_model: claude-3-5-sonnet-20240620
+manually_prompt_llm: false
+max_conversation_turns: 10
+output_folder_path: outputs/2024-07-26_15-53-18/aai_seeds_5_resolution_500
+play: false
+resolution: 500
+save_observations: true
+show_observations: false
+verbose: true
+watch_agent_interact: false

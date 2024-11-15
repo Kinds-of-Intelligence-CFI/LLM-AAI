@@ -1,0 +1,1 @@
+This folder is kept empty to test the behaviour of costing an arena with no npy cost arrays inside.

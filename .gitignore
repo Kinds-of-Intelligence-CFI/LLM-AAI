@@ -1,0 +1,31 @@
+# Pixi environments
+.pixi
+*.egg-info
+
+# Virtual environments
+venv/
+
+# vscode
+.vscode
+
+# PyCharm
+.idea/
+.DS_Store
+
+# Bytecode-compiled
+__pycache__
+
+# User-specific information
+user_settings.py
+
+# Outputs
+outputs/
+
+# Custom folders/files starting with ignore-
+ignore*
+
+# Llama logs
+4.0.0
+llama.log
+main.log
+main.py

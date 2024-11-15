@@ -1,0 +1,1 @@
+This folder is kept empty to test the behaviour of costing an experiment with no arena folders inside.

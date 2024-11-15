@@ -1,0 +1,21 @@
+# This file contains run/algorithm options.
+# To give user settings, go to user_settings.py
+
+aai_config_path: data/arena_configs/unclassified # path from aai-llm root
+aai_seeds: [21, 42] # positive integer
+output_folder_path: outputs/ # will be placed at aai-llm root
+max_conversation_turns: [5] # -1: NO maximum number of turns, {some_natural_number}: maximum number of turns
+manually_prompt_llm: false # true or false
+save_observations: true # true or false
+show_observations: false # true or false
+play: false # true or false
+watch_agent_interact: true # true or false
+verbose: true # true or false
+llm_family: claude # supported families: claude
+llm_model: claude-3-5-sonnet-20240620 # See ... to know which models are supported
+experiment_name: experiment1
+resolution: [150, 600]
+num_arena_loops: 1
+llm_family_switch: null
+llm_model_switch: null
+n_shot_examples_path: null

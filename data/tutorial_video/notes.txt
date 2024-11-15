@@ -1,0 +1,8 @@
+This folder contains files and folders relating to the 'tutorial video arena' (in reference to the tutorial that
+children were given to learn how to use Animal-AI) whose human run will be used as n-shot examples for the LLMs
+that will be tested in Animal-AI.
+
+Note: the tutorial_video_arena_n_shot_commands.* files were used to generate the run and ARE NOT the n-shot examples
+themselves. The n-shot examples can be found at the following location:
+
+data/tutorial_video/tutorial_video_replay/aai_seeds_0/tutorial_video_arena_with_rotated_boxes/llm_session_history_20240930184521.pkl

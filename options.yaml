@@ -1,0 +1,33 @@
+# This file contains run/algorithm options.
+# To give user settings, go to user_settings.py
+
+aai_config_path: data/arena_configs/sanity_green # path from aai-llm root
+aai_seeds: [6] # positive integer
+output_folder_path: outputs/ # will be placed at aai-llm root
+max_conversation_turns: 10 # -1: Unlimited number of turns, {some_natural_number}: maximum number of turns
+manually_prompt_llm: false # Boolean
+save_observations: true # Boolean
+show_observations: false # Boolean
+play: false # Boolean
+watch_agent_interact: true # Boolean
+verbose: true # Boolean
+llm_family: claude # supported families: claude, human, gpt, gemini, recording
+llm_model: claude-3-5-sonnet-20240620 # See the particular llm_family implementation to know which models are supported
+llm_family_switch: null # Specify the llm_family to switch to when recording is complete (if present llm_family/model must be recording)
+llm_model_switch: null # Specify the llm_family to switch to when recording is complete (if present llm_family/model must be recording)
+experiment_name: experiment1
+resolution: 512
+num_frames_per_observation: 1
+
+learn_across_arenas: false
+num_arena_loops: 1 # positive integer; number of times the LLM interacts in the arenas specified by aai_config_path
+
+# Prompts
+preamble: paper
+goal: paper
+commands: paper
+chain_of_thought: paper
+misc: paper # empty, the paper send-off is combined with the 'a new episode begins' prompt (see Experiment1's run method).
+
+# N-shot learning params
+n_shot_examples_path: null # Either "null" (no n-shot learning) OR a .pkl file to human-llm history

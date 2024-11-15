@@ -1,0 +1,1 @@
+This folder is kept empty to test the behaviour of costing a directory of suites with no suite folders inside.
